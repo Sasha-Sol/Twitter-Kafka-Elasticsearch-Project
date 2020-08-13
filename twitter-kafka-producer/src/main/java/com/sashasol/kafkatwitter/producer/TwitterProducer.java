@@ -102,10 +102,10 @@ public class TwitterProducer {
         return  new KafkaProducer<String, String>(kafkaProp);
     }
 
-    public static String consumerKey = "J5mTLyAaLFY6zPPdsAz5NwbI0";
-    public static String consumerSecret = "qN12VmNrMXL1HkyIOzTwVeVKnkPUfEZBSfphiM83WCjsLNzbMP";
-    public static String token = "1069206927622705153-w8cmC86wXpQkbLzWpDPqH2QvwYtMVB";
-    public static String secret = "dW6yRgIxlpL0BTbvLIYDijLmwdH8HGtf6rPKPThM3GIH5";
+    public static String consumerKey = "your twitter api credentials";
+    public static String consumerSecret = "your twitter api credentials";
+    public static String token = "your twitter api credentials";
+    public static String secret = "your twitter api credentials";
 
     private BasicClient createTwitterClient(BlockingQueue<String> msgQueue) {
 
